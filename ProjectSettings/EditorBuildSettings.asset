@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/SimpleAR.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/Scenes/FeatheredPlaneScene.unity
+    path: Assets/Scenes/Plane Detection/FeatheredPlanes.unity
     guid: 8252358a1e2ba7549a94df43aacec984
+  - enabled: 1
+    path: Assets/_Jay/Scenes/MeasurementApp.unity
+    guid: a549c5b4e2fc24a68b9eb88a51006ef9
   m_configObjects:
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 2d5fb8e61571b4e3897f221189089fd6,
       type: 2}
